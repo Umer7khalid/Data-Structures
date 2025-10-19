@@ -1,0 +1,18 @@
+This is a Circular Linked List (CLL) implementation in Python.
+
+Each node stores:
+1. data – the node’s value.
+2. next – a reference to the next node.
+
+In a Circular Linked List, the last node’s next pointer connects back
+to the first node (head), forming a continuous loop.
+
+The CircularLinkedList class provides functions to:
+
+1. append(data) – adds a node at the end and links it back to head.
+2. display() – prints all nodes until the list loops back to the start.
+3. delete(data) – removes a node with the given value. Special handling
+   is done when deleting the head node.
+
+The circular structure means there is no “end” in the list — traversing
+continuously will loop through all nodes again.
