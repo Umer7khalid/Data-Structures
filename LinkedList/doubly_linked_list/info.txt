@@ -1,0 +1,16 @@
+This is a Doubly Linked List (DLL) implementation in Python.
+
+Each node stores three things:
+1. data – the value of the node
+2. next – the address of the next node
+3. prev – the address of the previous node
+
+The DoublyLinkedList class provides functions to:
+
+1. append(data) – add a node at the end.
+2. prepend(data) – add a node at the beginning.
+3. delete(data) – remove a node that matches a given value.
+4. display() – print all nodes from start to end.
+
+The main difference from a singly linked list is that every node is linked
+both forward (next) and backward (prev), allowing two-way traversal.
